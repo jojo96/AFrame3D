@@ -44,4 +44,5 @@ The skeleton code is:
 </html>
 ```
 
+Run any one of the files in the notebook folder and copy the text from the resulting text file. Paste the text after <a-scene> tag.
 Thank you :)
