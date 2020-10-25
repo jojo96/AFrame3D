@@ -20,4 +20,28 @@ The same method can be used to create pixel art in AFrame. An example:
 
 <img src="https://github.com/jojo96/AFrame3D/blob/main/6.png" width=99% height=600 alt="Normal"> 
 
+# AFrame Code
+
+How to get the AFrame code?
+
+The skeleton code is:
+```
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script> 
+	<script src="https://unpkg.com/aframe-environment-component"></script>
+	
+  </head>
+  <body>
+ <a-scene>
+
+    <a-camera><a-cursor></a-cursor></a-camera>
+</a-scene>
+
+</body>
+
+</html>
+```
+
 Thank you :)
