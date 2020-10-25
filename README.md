@@ -9,15 +9,15 @@ The input would be an image like this:
 
 Using this image, we will create a 3D model that can be viewed in webVR. The result:
 
-<img src="https://github.com/jojo96/AFrame3D/blob/main/2.png" width=49% height=600 alt="Normal">
+<img src="https://github.com/jojo96/AFrame3D/blob/main/2.png" width=99% height=600 alt="Normal">
 
 We can also animate this:
 
-<img src="https://github.com/jojo96/AFrame3D/blob/main/3.gif" width=49% height=600 alt="Normal">
+<img src="https://github.com/jojo96/AFrame3D/blob/main/3.gif" width=99% height=600 alt="Normal">
 
 You can find the whole tutorial at: https://medium.com/p/552c257685dd
 The same method can be used to create pixel art in AFrame. An example:
 
-<img src="https://github.com/jojo96/AFrame3D/blob/main/6.png" width=49% height=600 alt="Normal"> 
+<img src="https://github.com/jojo96/AFrame3D/blob/main/6.png" width=99% height=600 alt="Normal"> 
 
 Thank you :)
