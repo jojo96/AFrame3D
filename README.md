@@ -45,4 +45,7 @@ The skeleton code is:
 ```
 
 Run any one of the files in the notebook folder and copy the text from the resulting text file. Paste the text after <a-scene> tag.
+
+Say, you want to make the "Pikachu 3D model". You can run the pikamodel.ipynb notebook and get the pik2.txt as output. Copy the text inside the pik2.txt and paste the text after <a-scene> tag. The complete example is in the A-Frame Examples folder.
+	
 Thank you :)
