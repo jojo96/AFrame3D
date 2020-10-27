@@ -15,7 +15,7 @@ We can also animate this:
 
 <img src="https://github.com/jojo96/AFrame3D/blob/main/3.gif" width=99% height=600 alt="Normal">
 
-You can find the whole tutorial at: https://medium.com/p/552c257685dd
+You can find the whole tutorial at: https://www.analyticsvidhya.com/blog/2020/10/virtual-reality-for-the-web-a-framecreating-3d-models-from-images/
 
 The same method can be used to create pixel art in AFrame. An example:
 
