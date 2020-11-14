@@ -49,4 +49,10 @@ Run any one of the files in the notebook folder and copy the text from the resul
 
 Say, you want to make the "Pikachu 3D model". You can run the pikamodel.ipynb notebook and get the pik2.txt as output. Copy the text inside the pik2.txt and paste the text after <a-scene> tag. The complete example is in the A-Frame Examples folder.
 	
+# New Examples
+
+You can now use 2 pokemon images and check out my notebook PikaCharDestroy.ipynb to create an interactive scene.
+
+<img src="https://github.com/jojo96/AFrame3D/blob/main/PikaCharDestroy.gif" width=99% height=600 alt="Normal">
+
 Thank you :)
