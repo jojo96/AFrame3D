@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script> 
+    <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script> 
+	<script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+
+  </head>
+  <body>
+  <a-scene>
+  <a-box id="cube" position="-1 0.66921 -3" rotation="0 45 0" color="#4CC3D9" visible="true"></a-box>
+      <a-sphere id="sphere" position="0 1.44508 -5" radius="1.25" color="#EF2D5E" ></a-sphere>
+      <a-cylinder id="cylinder" position="1 0.8993 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-entity id="env" environment="preset: goaland"></a-entity>
+  </a-scene>
+
+</body>
+
+<script>
+  document.body.onkeyup = function(e){
+    if(e.keyCode == 32){
+	    var environment = ["egypt", "checkerboard", "forest", "goaland", "yavapai", "goldmine", "threetowers", "poison", "arches", "tron", "japan", "dream", "volcano", "starry", "osiris"]; 
+		var bool = [true, false]
+		var item = environment[Math.floor(Math.random() * environment.length)];
+		
+		document.getElementById('cube').setAttribute('visible', bool[Math.floor(Math.random() * bool.length)]);
+        document.getElementById('sphere').setAttribute('color', 'pink');
+		
+		var place = 'preset: '+item;
+		console.log(place);
+		document.getElementById('env').setAttribute('environment', place);
+		}
+	}	
+
+	  </script>
+</html>
